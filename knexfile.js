@@ -5,10 +5,10 @@ module.exports = {
   development: {
     client: 'mysql',
     connection: {
-        host : '127.0.0.1',  
-        user : 'root',      
-        password : '97408469Bdc',  
-        database : 'todo'  
+        host : 'mysql742.umbler.com',  
+        user : 'kich',      
+        password : '97408469Kich',  
+        database : 'lojaKich'  
     },
     migrations:{
       directory: './src/database/migrations'
