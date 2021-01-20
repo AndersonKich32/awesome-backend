@@ -8,7 +8,7 @@ module.exports = {
         host : 'mysql742.umbler.com',  
         user : 'kich',      
         password : '97408469Kich',  
-        database : 'lojaKich'  
+        database : 'lojakich'  
     },
     migrations:{
       directory: './src/database/migrations'
