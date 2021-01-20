@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "postinstall": "knex migrate:latest"
+    "postinstall": "knex migrate:latest",
+    "start": "node src/index.js"
   },
   "keywords": [],
   "author": "",
@@ -17,7 +17,6 @@
     "knex": "^0.21.16",
     "mysql": "^2.18.1",
     "mysql2": "^2.2.5",
-    "postinstall": "^0.7.0",
     "sqlite3": "^4.1.1"
   },
   "devDependencies": {
