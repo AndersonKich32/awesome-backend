@@ -3,12 +3,12 @@
 module.exports = {
 
   development: {
-    client: 'mysql',
+    client: 'mysql2',
     connection: {
         host : 'mysql742.umbler.com',  
         user : 'kich',      
-        password : '97408469Kich',  
-        database : 'lojakich'  
+        password : '97408469Bdc',  
+        database : 'lojaKich'  
     },
     migrations:{
       directory: './src/database/migrations'
