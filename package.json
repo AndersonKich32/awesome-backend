@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "knex migration:latest node src/index.js"
+    "start": "knex migration:latest && node src/index.js"
   },
   "keywords": [],
   "author": "",
